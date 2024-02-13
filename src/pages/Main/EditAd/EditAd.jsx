@@ -81,9 +81,7 @@ export default function EditAd() {
       if (!elem.current.files['0']) return;
       if (index < adImages.length) {
         const file_url = adImages[index].url;
-        deletePicture({ id, access_token, file_url })
-          .unwrap()
-          .then((data) => console.log(data));
+        deletePicture({ id, access_token, file_url }).unwrap();
       }
       const picture = new FormData();
       picture.append('file', elem.current.files['0']);

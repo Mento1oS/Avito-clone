@@ -118,10 +118,6 @@ export function AddAd() {
           await addAdPicture({ picture, access_token, id })
             .unwrap()
             .then((data) => counter.current++);
-          console.log(
-            counter.current,
-            addAdFiles.filter((elem) => elem).length,
-          );
         });
       });
   };
@@ -154,7 +150,6 @@ export function AddAd() {
   }, [JSON.stringify(updatedMyAds), JSON.stringify(updatedAds)]);
   useEffect(() => {
     if (!addedNonImgAd || addingAdWithPhotos) return;
-    console.log('second', addingAdWithPhotos);
     handleUpdate();
   }, [JSON.stringify(newNonImgAd), !addingAdWithPhotos]);
   const submitHandle = async (e) => {
