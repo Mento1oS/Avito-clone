@@ -2,6 +2,9 @@
 
 This Avito-clone project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Backend was taken from here: [Backend](https://drive.google.com/file/d/1pFE-NRANTsWmQwTyURjHXuECMmoKCFjO/view).
+
+After backend setup you can find there [Swagger](http://localhost:8090/).
 
 ## Available functionality
 
