@@ -136,11 +136,7 @@ export default function Profile() {
 
           <StyledMain__Profile>
             <StyledProfile__Content>
-              <StyledProfile__Title
-                onClick={() => console.log(JSON.stringify(userAds))}
-              >
-                Настройки профиля
-              </StyledProfile__Title>
+              <StyledProfile__Title>Настройки профиля</StyledProfile__Title>
               <StyledProfile__Settings>
                 <StyledSettings__Left>
                   <StyledSettings__Img>

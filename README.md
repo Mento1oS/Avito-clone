@@ -1,6 +1,37 @@
-# Getting Started with Create React App
+# Avito clone project with react and redux using local backend api
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This Avito-clone project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+Backend was taken from here: [Backend](https://drive.google.com/file/d/1pFE-NRANTsWmQwTyURjHXuECMmoKCFjO/view).
+
+After backend setup you can find there [Swagger](http://localhost:8090/).
+
+## Available functionality
+
+The logic of behavior of an unregistered user is implemented:
+
+### The ability to search for products by keywords
+
+### Viewing an ad
+
+### Viewing the seller's profile
+
+### The ability to receive the seller's phone number
+
+The functionality of user registration and authentication
+
+The logic of the registered user's behavior:
+
+### Changing the name, surname, city, phone, avatar
+
+### Adding an ad
+
+### The ability to leave comments
+
+### The ability to remove your ad
+
+### Editing an ad
+
 
 ## Available Scripts
 
@@ -12,12 +43,6 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -39,32 +64,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
